@@ -25,7 +25,7 @@ public:
         lastName = last;
     }
     
-    void setSalary(int monthlyPay) {
+    void setSalary(int monthlyPay) {    // If you're going to have custom inputs, you should add validity checking to this member function
         salary = monthlyPay;
     }
     

@@ -1,4 +1,4 @@
-/* A program designed to test out definite iteration loops.
+/* A program designed to test out indefinite iteration loops.
  * 
  * Author: Alex Cole Foster
  */

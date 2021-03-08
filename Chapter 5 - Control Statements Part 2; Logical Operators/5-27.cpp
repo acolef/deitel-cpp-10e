@@ -2,6 +2,7 @@
  * modified such that the continue statement is replaced with a 
  * structured statement which achieves the same effect.
  * 
+ * Author: Alex Cole Foster
  */
 
 #include <iostream>

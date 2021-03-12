@@ -58,7 +58,7 @@ public:
             }
         }
         else
-            interest = ((dollars * 100 + cents) * rate + divisor / 2) / divisor; //round with half-up method
+            interest = ((dollars * 100 + cents) * rate + divisor / 2) / divisor; //round as usual
         
         dollars += interest / 100;                          // Add dollars of interest to dollars
         if ( (cents + interest % 100) >= 100 ) {            // If the amount of cents exceeds 100

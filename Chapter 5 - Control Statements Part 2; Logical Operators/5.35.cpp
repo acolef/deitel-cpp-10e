@@ -24,18 +24,18 @@ int main() {
     cout << "\nEnter an interest rate as an integer, and then a divisor: ";
     cin >> rate >> divisor;
     
-    double dRate = rate;
+    double dRate = rate;                // We need double versions of rate and divisor for later
     double dDivisor = divisor;
-    string strRate{to_string(rate)};
+    string strRate{to_string(rate)};    // Creates a string version of int rate
     
-    if ( strRate.size() > 1 )
-        cout << setprecision(strRate.size() - 1);
+    if ( strRate.size() > 1 )                       // Check size of string rate to correctly display interest percentage
+        cout << setprecision(strRate.size() - 1);   // If its size > 1, set the precision to string rate's size - 1
     else
-        cout << setprecision(strRate.size());
+        cout << setprecision(strRate.size());       // If its size = 1, set the precision to its size, 1
     
-    cout << fixed
+    cout << fixed                                   // Forces display of decimal point and trailing zeros within the precision
     << "Interest rate: " 
-    << (dRate / dDivisor) * 100 
+    << (dRate / dDivisor) * 100                     // Display the interest rate in percentage format
     << "%\n";
     
     DollarAmount account{1000, 0};      // $1,000.00

@@ -6,7 +6,7 @@
 #include <iostream>
 using namespace std;
 
-bool isEven(int);
+bool isEven(const int);
 
 int main() {
     int num;
@@ -17,6 +17,6 @@ int main() {
     }
 }
 
-bool isEven(int num) {
+bool isEven(const int num) {
     return num % 2 == 0;                                // Performs the even check
 }

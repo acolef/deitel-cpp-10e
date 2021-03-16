@@ -37,6 +37,5 @@ int main() {
             cout << "Please input a valid answer (y or n)." << endl;
             cin >> cont;
         }
-        
     }
 }

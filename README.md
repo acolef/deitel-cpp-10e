@@ -10,7 +10,9 @@ my methodology. As a beginner, I will certainly not always pursue
 the most elegant or informed solutions, and will only use the methods
 and techniques introduced up to any given exercise, as I believe this is
 tacitly intended by the authors, even if it is not stated outright as a 
-criterion for a problem.
+criterion for a problem. I begin labeling the problem type (instead of
+just listing the problem number) beginning with Chapter 7. I may go back
+and label the problem types for preceding chapters sometime in the future.
 
 My computer is a Linux system, and all programs were written in Kate and
 compiled by g++ using the C++ 14 standards.

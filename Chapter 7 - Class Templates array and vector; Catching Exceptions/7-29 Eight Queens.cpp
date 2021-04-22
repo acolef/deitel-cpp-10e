@@ -1,11 +1,4 @@
-/* Pseudocode:
- * For a row:
- *  Check the row to see if there's a queen to the left
- *  Check the upper left diagonal to see if there's a queen
- *      If not, place a queen, 
- *          move to next row
- *      If so, don't place a queen, 
- *          move to next column
+/* Solves the Eight Queens problem recursively.    std::cout << "Valid move!" << std::endl;
  * 
  * Author: Alex Cole Foster
  */

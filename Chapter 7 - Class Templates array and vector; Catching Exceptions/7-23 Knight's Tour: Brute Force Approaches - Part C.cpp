@@ -1,5 +1,5 @@
 /* Addresses the Knight's Tour problem by using a brute force approach.
- * Part B
+ * Part C
  * 
  * Author: Alex Cole Foster
  */
